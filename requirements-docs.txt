@@ -1,0 +1,5 @@
+# Dependencies for scripts/build_docs_pdf.py (docs -> PDF).
+# WeasyPrint also needs Pango >= 1.44 from the system (present on most Linux desktops).
+markdown>=3.5
+pygments>=2.17
+weasyprint>=62

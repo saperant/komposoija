@@ -1,0 +1,286 @@
+/* Print stylesheet for the music theory PDF (rendered by WeasyPrint).
+   "--paper--" is replaced with the page size by scripts/build_docs_pdf.py. */
+
+/* Colours: ink #1f2328, muted #5b636e, accent #8a3b12, rules #d8dce1.
+   Literal values (no var()) for compatibility with older WeasyPrint. */
+
+/* ---------- Pages ---------- */
+
+@page {
+  size: --paper--;
+  margin: 22mm 20mm 22mm 20mm;
+  @top-left {
+    content: string(chaptitle);
+    font: 8pt "Noto Sans", "Source Sans 3", "DejaVu Sans", "Liberation Sans", "Symbola", sans-serif;
+    color: #5b636e;
+  }
+  @top-right {
+    content: "Music Theory for Pop & Rock";
+    font: 8pt "Noto Sans", "Source Sans 3", "DejaVu Sans", "Liberation Sans", "Symbola", sans-serif;
+    color: #5b636e;
+  }
+  @bottom-center {
+    content: counter(page);
+    font: 9pt "Noto Sans", "Source Sans 3", "DejaVu Sans", "Liberation Sans", "Symbola", sans-serif;
+    color: #5b636e;
+  }
+}
+
+@page cover {
+  margin: 0;
+  background: #1f2328;
+  @top-left { content: none; }
+  @top-right { content: none; }
+  @bottom-center { content: none; }
+}
+
+@page chapter-start {
+  @top-left { content: none; }
+  @top-right { content: none; }
+}
+
+/* ---------- Base ---------- */
+
+html {
+  font-family: "Noto Serif", "Source Serif 4", "DejaVu Serif", "Liberation Serif", "STIX Two Text", "Symbola", serif;
+  font-size: 10pt;
+  line-height: 1.45;
+  color: #1f2328;
+}
+
+body { margin: 0; }
+
+p, li { orphans: 3; widows: 3; hyphens: auto; }
+
+a { color: #8a3b12; text-decoration: none; }
+
+strong { font-weight: 700; }
+
+hr {
+  border: none;
+  border-top: 1px solid #d8dce1;
+  margin: 1.4em 25%;
+}
+
+blockquote {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  border-left: 3px solid #8a3b12;
+  background: #f8f9fb;
+  color: #5b636e;
+}
+
+blockquote p { margin: 0; }
+
+/* ---------- Cover ---------- */
+
+.cover {
+  page: cover;
+  padding: 80mm 25mm 0 25mm;
+  color: #f4efe6;
+  break-after: page;
+}
+
+.cover-title {
+  font: 700 34pt/1.15 "Noto Sans", "Source Sans 3", "DejaVu Sans", "Liberation Sans", "Symbola", sans-serif;
+  letter-spacing: -0.01em;
+  border-bottom: 3px solid #d98c4a;
+  padding-bottom: 6mm;
+}
+
+.cover-subtitle {
+  margin-top: 6mm;
+  font: 14pt/1.4 "Noto Serif", "Source Serif 4", "DejaVu Serif", "Liberation Serif", "STIX Two Text", "Symbola", serif;
+  color: #d8d2c6;
+}
+
+.cover-symbols {
+  margin-top: 40mm;
+  font: 34pt "Symbola", "DejaVu Serif", serif;
+  color: #d98c4a;
+}
+
+/* Fixed boxes per glyph: clef outlines overhang their advance width. */
+.cover-symbols span {
+  display: inline-block;
+  width: 1.3em;
+  text-align: center;
+}
+
+.cover-date {
+  margin-top: 50mm;
+  font: 10pt "Noto Sans", "Source Sans 3", "DejaVu Sans", "Liberation Sans", "Symbola", sans-serif;
+  color: #a9a395;
+}
+
+/* ---------- Table of contents ---------- */
+
+.toc { break-after: page; }
+
+.toc-title {
+  font: 700 22pt "Noto Sans", "Source Sans 3", "DejaVu Sans", "Liberation Sans", "Symbola", sans-serif;
+  margin: 0 0 8mm 0;
+}
+
+.toc ul { list-style: none; margin: 0; padding: 0; }
+
+.toc li.toc-chapter {
+  margin-top: 3.2mm;
+  font: 600 10.5pt "Noto Sans", "Source Sans 3", "DejaVu Sans", "Liberation Sans", "Symbola", sans-serif;
+}
+
+.toc li.toc-chapter > a { color: #1f2328; }
+
+.toc li.toc-chapter ul { margin: 1mm 0 0 9mm; }
+
+.toc li.toc-chapter ul li {
+  font: 400 9pt/1.5 "Noto Serif", "Source Serif 4", "DejaVu Serif", "Liberation Serif", "STIX Two Text", "Symbola", serif;
+}
+
+.toc li.toc-chapter ul li a { color: #5b636e; }
+
+.toc a::after {
+  content: leader(".") target-counter(attr(href), page);
+  color: #5b636e;
+}
+
+.toc-num {
+  display: inline-block;
+  width: 9mm;
+  color: #8a3b12;
+}
+
+/* ---------- Chapters and headings ---------- */
+
+section.chapter { break-before: page; }
+
+section.chapter > h1:first-child { page: chapter-start; }
+
+h1, h2, h3, h4 {
+  font-family: "Noto Sans", "Source Sans 3", "DejaVu Sans", "Liberation Sans", "Symbola", sans-serif;
+  line-height: 1.25;
+  break-after: avoid;
+}
+
+h1 {
+  margin: 10mm 0 8mm 0;
+  padding-bottom: 4mm;
+  border-bottom: 2px solid #8a3b12;
+}
+
+h1 .chapnum {
+  display: block;
+  font: 600 10pt "Noto Sans", "Source Sans 3", "DejaVu Sans", "Liberation Sans", "Symbola", sans-serif;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #8a3b12;
+  margin-bottom: 2mm;
+}
+
+h1 .chaptitle {
+  font-size: 24pt;
+  font-weight: 700;
+  string-set: chaptitle content();
+}
+
+h2 {
+  font-size: 14pt;
+  margin: 7mm 0 2.5mm 0;
+  color: #1f2328;
+}
+
+h3 {
+  font-size: 11.5pt;
+  margin: 5mm 0 2mm 0;
+  color: #333a42;
+}
+
+h4 { font-size: 10pt; margin: 4mm 0 1.5mm 0; }
+
+/* Keep a heading together with what follows it. */
+h2 + *, h3 + *, h4 + * { break-before: avoid; }
+
+/* ---------- Tables ---------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 3mm 0 4mm 0;
+  font: 8.5pt/1.35 "Noto Sans", "Source Sans 3", "DejaVu Sans", "Liberation Sans", "Symbola", sans-serif;
+}
+
+thead { display: table-header-group; }   /* repeat header on page breaks */
+
+tr { break-inside: avoid; }
+
+th {
+  text-align: left;
+  font-weight: 700;
+  background: #eceef1;
+  border-bottom: 1.5px solid #9aa1aa;
+}
+
+th, td {
+  padding: 1.4mm 2mm;
+  vertical-align: top;
+}
+
+td { border-bottom: 0.5px solid #d8dce1; }
+
+tbody tr:nth-child(even) td { background: #f8f9fb; }
+
+td code, th code { font-size: 7.8pt; }
+
+/* ---------- Code ---------- */
+
+code {
+  font-family: "Source Code Pro", "Noto Sans Mono", "DejaVu Sans Mono", "Liberation Mono", "Symbola", monospace;
+  font-size: 8.6pt;
+  background: #f6f7f9;
+  padding: 0 0.25em;
+  border-radius: 2px;
+}
+
+pre {
+  /* DejaVu Sans Mono covers box drawing, arrows and ♯♭ in one font, so diagrams line up. */
+  font-family: "DejaVu Sans Mono", "Source Code Pro", "Noto Sans Mono", "DejaVu Sans Mono", "Liberation Mono", "Symbola", monospace;
+  font-size: 7.9pt;
+  line-height: 1.35;
+  background: #f6f7f9;
+  border: 0.5px solid #d8dce1;
+  border-left: 3px solid #b9c0c8;
+  border-radius: 3px;
+  padding: 2.5mm 3mm;
+  margin: 3mm 0 4mm 0;
+  white-space: pre-wrap;           /* never run off the page */
+  overflow-wrap: anywhere;
+  break-inside: avoid;
+}
+
+pre code { background: none; padding: 0; font-size: inherit; }
+
+.hl { background: none; }
+
+/* ---------- Musical symbols, see wrap_music_symbols() ---------- */
+
+.music {
+  display: inline-block;
+  width: 1.2em;
+  text-align: center;
+  font-family: "Symbola", "Noto Music", "DejaVu Sans", serif;
+  font-size: 1.15em;
+  line-height: 1;
+  /* Symbola draws clefs left of their origin; nudge the ink into the box. */
+  position: relative;
+  left: 0.3em;
+}
+
+.accidental { letter-spacing: -0.08em; white-space: nowrap; }
+
+/* ---------- Lists ---------- */
+
+ul, ol { padding-left: 6mm; margin: 2mm 0 3mm 0; }
+
+li { margin: 0.6mm 0; }
+
+li > p { margin: 0.5mm 0; }
