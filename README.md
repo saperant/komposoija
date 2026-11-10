@@ -70,6 +70,28 @@ plugin imports komposoija from there (`$KOMPOSOIJA_PYTHON` names another). Its t
 `tests/test_myrcp_plugin.py`, use the installed myrcp SDK (the `dev` extra has it), else
 `$MYRCP_SDK` or a `../myrcp` checkout, and are skipped without one.
 
+### Screenshots
+
+Paper Lanterns (`songs/example.py`) playing from the chorus: the song's form with the
+playhead, the bar and its lyric lines, and the section's source in Properties:
+
+![A song playing in the terminal workbench](docs/screenshots/rcp-playing.svg)
+
+A typo saved in Vim, which runs in a workbench tab: the song is rendered again, and the
+error is in Problems and at its line in Vim:
+
+![A render error after a save](docs/screenshots/rcp-error.svg)
+
+The same in the GTK workbench (`MYRCP_GTK=1`):
+
+![A song playing in the GTK workbench](docs/screenshots/gtk-playing.png)
+
+![A render error in the GTK workbench](docs/screenshots/gtk-error.png)
+
+Also [the song list](docs/screenshots/rcp-songs.svg) ([GTK](docs/screenshots/gtk-songs.png)).
+`tools/screenshots/make.sh` makes them again, from the example songs in a made-up home
+in a sandbox (playback is a silent stand-in for FluidSynth).
+
 ## Documentation
 
 - [Song DSL reference](docs/song-dsl.md) — mini-notation, constructors, presets, CLI options.

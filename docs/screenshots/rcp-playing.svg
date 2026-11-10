@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1972 977" font-family="Fira Code, DejaVu Sans Mono, monospace" font-size="20">
+<rect width="1972" height="977" rx="8" fill="#292929" stroke="#444"/>
+<circle cx="20" cy="20" r="7" fill="#ff5f57"/><circle cx="42" cy="20" r="7" fill="#febc2e"/><circle cx="64" cy="20" r="7" fill="#28c840"/>
+<text x="986" y="26" fill="#c5c8c6" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">komposoija-ui — Paper Lanterns</text>
+<rect x="10" y="40" width="1952.0" height="927.2" fill="#1e1e1e"/>
+<rect x="10.0" y="40.0" width="305.6" height="25.0" fill="#11a8cd"/>
+<text x="22.2" y="58.5" fill="#1e1e1e" textLength="280.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">komposoija ▸ komposoija</text>
+<rect x="315.0" y="40.0" width="183.6" height="25.0" fill="#e0e0e0"/>
+<text x="339.4" y="58.5" fill="#1e1e1e" textLength="146.4" lengthAdjust="spacingAndGlyphs">1 komposoija</text>
+<text x="510.2" y="58.5" fill="#e0e0e0" textLength="219.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">4 ▶ Paper Lanterns</text>
+<rect x="742.0" y="40.0" width="537.4" height="25.0" fill="#e0e0e0"/>
+<text x="1266.6" y="58.5" fill="#1e1e1e" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="1278.8" y="40.0" width="171.4" height="25.0" fill="#11a8cd"/>
+<text x="1291.0" y="58.5" fill="#1e1e1e" textLength="146.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">2 Properties</text>
+<rect x="1449.6" y="40.0" width="513.0" height="25.0" fill="#e0e0e0"/>
+<text x="10.0" y="82.9" fill="#e0e0e0" textLength="170.8" lengthAdjust="spacingAndGlyphs" font-weight="bold">Paper Lanterns</text>
+<text x="217.4" y="82.9" fill="#666666" textLength="378.2" lengthAdjust="spacingAndGlyphs">G major, 116 BPM, 4/4, pop_rock</text>
+<text x="632.2" y="82.9" fill="#666666" textLength="158.6" lengthAdjust="spacingAndGlyphs">72 bars, 2:28</text>
+<text x="827.4" y="82.9" fill="#666666" textLength="122.0" lengthAdjust="spacingAndGlyphs">example.py</text>
+<text x="1266.6" y="82.9" fill="#666666" textLength="61.0" lengthAdjust="spacingAndGlyphs">│From</text>
+<text x="1339.8" y="82.9" fill="#11a8cd" textLength="195.2" lengthAdjust="spacingAndGlyphs">♪ Paper Lanterns</text>
+<text x="10.0" y="107.3" fill="#0dbc79" textLength="12.2" lengthAdjust="spacingAndGlyphs">▶</text>
+<text x="34.4" y="107.3" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">chorus</text>
+<text x="132.0" y="107.3" fill="#e0e0e0" textLength="85.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">bar 3/8</text>
+<text x="254.0" y="107.3" fill="#e0e0e0" textLength="134.2" lengthAdjust="spacingAndGlyphs">0:37 / 2:28</text>
+<text x="437.0" y="107.3" fill="#e0e0e0" textLength="122.0" lengthAdjust="spacingAndGlyphs">start mark</text>
+<text x="571.2" y="107.3" fill="#11a8cd" textLength="73.2" lengthAdjust="spacingAndGlyphs">chorus</text>
+<text x="668.8" y="107.3" fill="#666666" textLength="146.4" lengthAdjust="spacingAndGlyphs">bar 17, 0:33</text>
+<text x="864.0" y="107.3" fill="#e0e0e0" textLength="48.8" lengthAdjust="spacingAndGlyphs">loop</text>
+<text x="925.0" y="107.3" fill="#666666" textLength="36.6" lengthAdjust="spacingAndGlyphs">off</text>
+<text x="986.0" y="107.3" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs">follow</text>
+<text x="1071.4" y="107.3" fill="#11a8cd" textLength="24.4" lengthAdjust="spacingAndGlyphs">on</text>
+<text x="1266.6" y="107.3" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="107.3" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">chorus</text>
+<text x="1376.4" y="107.3" fill="#666666" textLength="219.6" lengthAdjust="spacingAndGlyphs">komposoija.section</text>
+<text x="34.4" y="131.7" fill="#e0e0e0" textLength="85.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">Section</text>
+<text x="156.4" y="131.7" fill="#e0e0e0" textLength="48.8" lengthAdjust="spacingAndGlyphs" font-weight="bold">Bars</text>
+<text x="229.6" y="131.7" fill="#e0e0e0" textLength="36.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">Bar</text>
+<text x="315.0" y="131.7" fill="#e0e0e0" textLength="24.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">At</text>
+<text x="351.6" y="131.7" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">Chords</text>
+<text x="803.0" y="131.7" fill="#e0e0e0" textLength="85.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">Changes</text>
+<text x="961.6" y="131.7" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">Tracks</text>
+<text x="1266.6" y="131.7" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="131.7" fill="#e0e0e0" textLength="97.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">Property</text>
+<text x="1461.8" y="131.7" fill="#e0e0e0" textLength="61.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">Value</text>
+<text x="34.4" y="156.1" fill="#e0e0e0" textLength="61.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">intro</text>
+<text x="193.0" y="156.1" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="254.0" y="156.1" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="290.6" y="156.1" fill="#e0e0e0" textLength="231.8" lengthAdjust="spacingAndGlyphs">0:00 G | C | Em | C</text>
+<text x="961.6" y="156.1" fill="#666666" textLength="109.8" lengthAdjust="spacingAndGlyphs">keys, pad</text>
+<text x="1266.6" y="156.1" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="1278.8" y="137.6" width="683.8" height="25.0" fill="#e0e0e0"/>
+<text x="1278.8" y="156.1" fill="#1e1e1e" textLength="61.0" lengthAdjust="spacingAndGlyphs">Where</text>
+<text x="1461.8" y="156.1" fill="#1e1e1e" textLength="158.6" lengthAdjust="spacingAndGlyphs">example.py:29</text>
+<text x="34.4" y="180.5" fill="#e0e0e0" textLength="61.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">verse</text>
+<text x="193.0" y="180.5" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="254.0" y="180.5" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="290.6" y="180.5" fill="#e0e0e0" textLength="439.2" lengthAdjust="spacingAndGlyphs">0:08 G | D | Em | C | G | D | Em | C</text>
+<text x="961.6" y="180.5" fill="#666666" textLength="207.4" lengthAdjust="spacingAndGlyphs">drums, bass, keys</text>
+<text x="1266.6" y="180.5" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="180.5" fill="#e0e0e0" textLength="85.4" lengthAdjust="spacingAndGlyphs">Section</text>
+<text x="1461.8" y="180.5" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs">chorus</text>
+<text x="34.4" y="204.9" fill="#e0e0e0" textLength="36.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">pre</text>
+<text x="193.0" y="204.9" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="241.8" y="204.9" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">13</text>
+<text x="290.6" y="204.9" fill="#e0e0e0" textLength="256.2" lengthAdjust="spacingAndGlyphs">0:24 C | D | Em | C D</text>
+<text x="961.6" y="204.9" fill="#666666" textLength="268.4" lengthAdjust="spacingAndGlyphs">drums, bass, keys, pad</text>
+<text x="1266.6" y="204.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="204.9" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs">Played</text>
+<text x="1461.8" y="204.9" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs">time 1</text>
+<rect x="10.0" y="210.8" width="1257.2" height="25.0" fill="#11a8cd"/>
+<text x="10.0" y="229.3" fill="#000000" textLength="97.6" lengthAdjust="spacingAndGlyphs">▶ chorus</text>
+<text x="193.0" y="229.3" fill="#000000" textLength="12.2" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="241.8" y="229.3" fill="#000000" textLength="24.4" lengthAdjust="spacingAndGlyphs">17</text>
+<text x="290.6" y="229.3" fill="#000000" textLength="439.2" lengthAdjust="spacingAndGlyphs">0:33 C | G | D | Em | C | G | D | Em</text>
+<text x="961.6" y="229.3" fill="#000000" textLength="305.0" lengthAdjust="spacingAndGlyphs">drums, bass, guitar, keys</text>
+<text x="1266.6" y="229.3" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="229.3" fill="#e0e0e0" textLength="48.8" lengthAdjust="spacingAndGlyphs">Bars</text>
+<text x="1461.8" y="229.3" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="34.4" y="253.7" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">verse2</text>
+<text x="193.0" y="253.7" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="241.8" y="253.7" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">25</text>
+<text x="290.6" y="253.7" fill="#e0e0e0" textLength="439.2" lengthAdjust="spacingAndGlyphs">0:49 G | D | Em | C | G | D | Em | C</text>
+<text x="961.6" y="253.7" fill="#666666" textLength="207.4" lengthAdjust="spacingAndGlyphs">drums, bass, keys</text>
+<text x="1266.6" y="253.7" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="253.7" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs">Starts</text>
+<text x="1461.8" y="253.7" fill="#e0e0e0" textLength="146.4" lengthAdjust="spacingAndGlyphs">bar 17, 0:33</text>
+<text x="34.4" y="278.1" fill="#e0e0e0" textLength="61.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">pre.2</text>
+<text x="193.0" y="278.1" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="241.8" y="278.1" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">33</text>
+<text x="290.6" y="278.1" fill="#e0e0e0" textLength="256.2" lengthAdjust="spacingAndGlyphs">1:06 C | D | Em | C D</text>
+<text x="961.6" y="278.1" fill="#666666" textLength="268.4" lengthAdjust="spacingAndGlyphs">drums, bass, keys, pad</text>
+<text x="1266.6" y="278.1" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="278.1" fill="#e0e0e0" textLength="36.6" lengthAdjust="spacingAndGlyphs">Key</text>
+<text x="1461.8" y="278.1" fill="#e0e0e0" textLength="85.4" lengthAdjust="spacingAndGlyphs">G major</text>
+<text x="34.4" y="302.5" fill="#e0e0e0" textLength="97.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">chorus.2</text>
+<text x="193.0" y="302.5" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="241.8" y="302.5" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">37</text>
+<text x="290.6" y="302.5" fill="#e0e0e0" textLength="439.2" lengthAdjust="spacingAndGlyphs">1:14 C | G | D | Em | C | G | D | Em</text>
+<text x="961.6" y="302.5" fill="#666666" textLength="317.2" lengthAdjust="spacingAndGlyphs">drums, bass, guitar, keys│</text>
+<text x="1278.8" y="302.5" fill="#e0e0e0" textLength="61.0" lengthAdjust="spacingAndGlyphs">Tempo</text>
+<text x="1461.8" y="302.5" fill="#e0e0e0" textLength="85.4" lengthAdjust="spacingAndGlyphs">116 BPM</text>
+<text x="34.4" y="326.9" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">bridge</text>
+<text x="193.0" y="326.9" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="241.8" y="326.9" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">45</text>
+<text x="290.6" y="326.9" fill="#e0e0e0" textLength="439.2" lengthAdjust="spacingAndGlyphs">1:31 Em | C | G | D | Em | C | F | D</text>
+<text x="961.6" y="326.9" fill="#666666" textLength="268.4" lengthAdjust="spacingAndGlyphs">drums, bass, keys, pad</text>
+<text x="1266.6" y="326.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="326.9" fill="#e0e0e0" textLength="61.0" lengthAdjust="spacingAndGlyphs">Meter</text>
+<text x="1461.8" y="326.9" fill="#e0e0e0" textLength="36.6" lengthAdjust="spacingAndGlyphs">4/4</text>
+<text x="34.4" y="351.3" fill="#e0e0e0" textLength="97.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">chorus.3</text>
+<text x="193.0" y="351.3" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="241.8" y="351.3" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">53</text>
+<text x="290.6" y="351.3" fill="#e0e0e0" textLength="439.2" lengthAdjust="spacingAndGlyphs">1:47 C | G | D | Em | C | G | D | Em</text>
+<text x="961.6" y="351.3" fill="#666666" textLength="317.2" lengthAdjust="spacingAndGlyphs">drums, bass, guitar, keys│</text>
+<text x="1278.8" y="351.3" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs">Chords</text>
+<text x="1461.8" y="351.3" fill="#e0e0e0" textLength="378.2" lengthAdjust="spacingAndGlyphs">C | G | D | Em | C | G | D | Em</text>
+<text x="34.4" y="375.7" fill="#e0e0e0" textLength="97.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">chorus.4</text>
+<text x="193.0" y="375.7" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="241.8" y="375.7" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">61</text>
+<text x="290.6" y="375.7" fill="#e0e0e0" textLength="439.2" lengthAdjust="spacingAndGlyphs">2:04 C | G | D | Em | C | G | D | Em</text>
+<text x="961.6" y="375.7" fill="#666666" textLength="317.2" lengthAdjust="spacingAndGlyphs">drums, bass, guitar, keys│</text>
+<text x="1278.8" y="375.7" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs">Tracks</text>
+<text x="1461.8" y="375.7" fill="#e0e0e0" textLength="439.2" lengthAdjust="spacingAndGlyphs">drums, bass, guitar, keys, pad, lead</text>
+<text x="34.4" y="400.1" fill="#e0e0e0" textLength="61.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">outro</text>
+<text x="193.0" y="400.1" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="241.8" y="400.1" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">69</text>
+<text x="290.6" y="400.1" fill="#e0e0e0" textLength="219.6" lengthAdjust="spacingAndGlyphs">2:20 G | C | G | G</text>
+<text x="961.6" y="400.1" fill="#666666" textLength="183.0" lengthAdjust="spacingAndGlyphs">keys, pad, bass</text>
+<text x="1266.6" y="400.1" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="400.1" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs">Lyrics</text>
+<text x="1461.8" y="400.1" fill="#e0e0e0" textLength="329.4" lengthAdjust="spacingAndGlyphs">So light it up, light it up</text>
+<text x="1266.6" y="424.5" fill="#666666" textLength="36.6" lengthAdjust="spacingAndGlyphs">│┌─</text>
+<text x="1315.4" y="424.5" fill="#e0e0e0" textLength="122.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">example.py</text>
+<text x="1449.6" y="424.5" fill="#666666" textLength="512.4" lengthAdjust="spacingAndGlyphs">─────────────────────────────────────────┐</text>
+<text x="1266.6" y="448.9" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="448.9" fill="#e0e0e0" textLength="24.4" lengthAdjust="spacingAndGlyphs">21</text>
+<text x="1388.6" y="448.9" fill="#e0e0e0" textLength="463.6" lengthAdjust="spacingAndGlyphs">that we were never brave enough to say</text>
+<text x="1949.8" y="448.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1266.6" y="473.3" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="473.3" fill="#e0e0e0" textLength="85.4" lengthAdjust="spacingAndGlyphs">22 &quot;&quot;&quot;)</text>
+<text x="1937.6" y="473.3" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">▐│</text>
+<text x="1266.6" y="497.7" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="497.7" fill="#e0e0e0" textLength="24.4" lengthAdjust="spacingAndGlyphs">23</text>
+<text x="1949.8" y="497.7" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1266.6" y="522.1" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="522.1" fill="#e0e0e0" textLength="646.6" lengthAdjust="spacingAndGlyphs">24 pre = song.section(&quot;pre&quot;, bars=4, energy=0.6, lyri</text>
+<text x="1949.8" y="522.1" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1266.6" y="546.5" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="546.5" fill="#e0e0e0" textLength="24.4" lengthAdjust="spacingAndGlyphs">25</text>
+<text x="1388.6" y="546.5" fill="#e0e0e0" textLength="366.0" lengthAdjust="spacingAndGlyphs">And the night keeps holding on</text>
+<text x="1949.8" y="546.5" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="10.0" y="570.9" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">chorus</text>
+<text x="95.4" y="570.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">|</text>
+<text x="107.6" y="570.9" fill="#11a8cd" textLength="24.4" lengthAdjust="spacingAndGlyphs">▸C</text>
+<text x="144.2" y="570.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">|</text>
+<text x="168.6" y="570.9" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">G</text>
+<text x="193.0" y="570.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">|</text>
+<text x="217.4" y="570.9" fill="#0dbc79" textLength="12.2" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="241.8" y="570.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">|</text>
+<text x="266.2" y="570.9" fill="#e0e0e0" textLength="24.4" lengthAdjust="spacingAndGlyphs">Em</text>
+<text x="302.8" y="570.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">|</text>
+<text x="327.2" y="570.9" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">C</text>
+<text x="351.6" y="570.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">|</text>
+<text x="376.0" y="570.9" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">G</text>
+<text x="400.4" y="570.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">|</text>
+<text x="424.8" y="570.9" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="449.2" y="570.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">|</text>
+<text x="473.6" y="570.9" fill="#e0e0e0" textLength="24.4" lengthAdjust="spacingAndGlyphs">Em</text>
+<text x="510.2" y="570.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">|</text>
+<text x="1266.6" y="570.9" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="570.9" fill="#e0e0e0" textLength="24.4" lengthAdjust="spacingAndGlyphs">26</text>
+<text x="1388.6" y="570.9" fill="#e0e0e0" textLength="122.0" lengthAdjust="spacingAndGlyphs">holding on</text>
+<text x="1949.8" y="570.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="34.4" y="595.3" fill="#666666" textLength="36.6" lengthAdjust="spacingAndGlyphs">bar</text>
+<text x="95.4" y="595.3" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="132.0" y="595.3" fill="#11a8cd" textLength="329.4" lengthAdjust="spacingAndGlyphs">So light it up, light it up</text>
+<text x="1266.6" y="595.3" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="595.3" fill="#e0e0e0" textLength="85.4" lengthAdjust="spacingAndGlyphs">27 &quot;&quot;&quot;)</text>
+<text x="1949.8" y="595.3" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="34.4" y="619.7" fill="#666666" textLength="36.6" lengthAdjust="spacingAndGlyphs">bar</text>
+<text x="95.4" y="619.7" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="132.0" y="619.7" fill="#e0e0e0" textLength="341.6" lengthAdjust="spacingAndGlyphs">let it float above the water</text>
+<text x="1266.6" y="619.7" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="619.7" fill="#e0e0e0" textLength="24.4" lengthAdjust="spacingAndGlyphs">28</text>
+<text x="1949.8" y="619.7" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="34.4" y="644.1" fill="#666666" textLength="36.6" lengthAdjust="spacingAndGlyphs">bar</text>
+<text x="95.4" y="644.1" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="132.0" y="644.1" fill="#e0e0e0" textLength="292.8" lengthAdjust="spacingAndGlyphs">light it up, light it up</text>
+<text x="1266.6" y="644.1" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<rect x="1291.0" y="625.6" width="659.4" height="25.0" fill="#e0e0e0"/>
+<text x="1303.2" y="644.1" fill="#1e1e1e" textLength="646.6" lengthAdjust="spacingAndGlyphs">29 chorus = song.section(&quot;chorus&quot;, bars=8, energy=0.8</text>
+<text x="1949.8" y="644.1" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="34.4" y="668.5" fill="#666666" textLength="36.6" lengthAdjust="spacingAndGlyphs">bar</text>
+<text x="95.4" y="668.5" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">7</text>
+<text x="132.0" y="668.5" fill="#e0e0e0" textLength="329.4" lengthAdjust="spacingAndGlyphs">we&#x27;ll be shining even after</text>
+<text x="1266.6" y="668.5" fill="#666666" textLength="695.4" lengthAdjust="spacingAndGlyphs">│└──────────────────────────────────────────────────────┘</text>
+<text x="10.0" y="692.9" fill="#11a8cd" textLength="97.6" lengthAdjust="spacingAndGlyphs">space/F9</text>
+<text x="119.8" y="692.9" fill="#666666" textLength="305.0" lengthAdjust="spacingAndGlyphs">play from the mark / stop</text>
+<text x="461.4" y="692.9" fill="#11a8cd" textLength="61.0" lengthAdjust="spacingAndGlyphs">Enter</text>
+<text x="534.6" y="692.9" fill="#666666" textLength="207.4" lengthAdjust="spacingAndGlyphs">play this section</text>
+<text x="778.6" y="692.9" fill="#11a8cd" textLength="36.6" lengthAdjust="spacingAndGlyphs">[ ]</text>
+<text x="827.4" y="692.9" fill="#666666" textLength="292.8" lengthAdjust="spacingAndGlyphs">mark a bar earlier/later</text>
+<text x="1156.8" y="692.9" fill="#11a8cd" textLength="12.2" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="1181.2" y="692.9" fill="#666666" textLength="48.8" lengthAdjust="spacingAndGlyphs">loop</text>
+<text x="1266.6" y="692.9" fill="#666666" textLength="427.0" lengthAdjust="spacingAndGlyphs">│Enter opens the line in the editor</text>
+<rect x="10.0" y="698.8" width="12.8" height="25.0" fill="#e0e0e0"/>
+<rect x="22.2" y="698.8" width="147.0" height="25.0" fill="#11a8cd"/>
+<text x="34.4" y="717.3" fill="#1e1e1e" textLength="122.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">3 Problems</text>
+<rect x="168.6" y="698.8" width="1794.0" height="25.0" fill="#e0e0e0"/>
+<text x="10.0" y="741.7" fill="#666666" textLength="353.8" lengthAdjust="spacingAndGlyphs">0 errors, 0 warnings, 0 other</text>
+<text x="107.6" y="766.1" fill="#e0e0e0" textLength="61.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">Where</text>
+<text x="803.0" y="766.1" fill="#e0e0e0" textLength="85.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">Problem</text>
+<text x="1840.0" y="766.1" fill="#e0e0e0" textLength="48.8" lengthAdjust="spacingAndGlyphs" font-weight="bold">From</text>
+<text x="22.2" y="790.5" fill="#666666" textLength="256.2" lengthAdjust="spacingAndGlyphs">No problems reported.</text>
+<text x="10.0" y="936.9" fill="#666666" textLength="744.2" lengthAdjust="spacingAndGlyphs">Enter opens the place (the editor, or the view that shows it)</text>
+<rect x="10.0" y="942.8" width="1415.8" height="25.0" fill="#e0e0e0"/>
+<rect x="1425.2" y="942.8" width="37.2" height="25.0" fill="#11a8cd"/>
+<text x="1425.2" y="961.3" fill="#1e1e1e" textLength="36.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">Tab</text>
+<rect x="1461.8" y="942.8" width="98.2" height="25.0" fill="#e0e0e0"/>
+<text x="1474.0" y="961.3" fill="#1e1e1e" textLength="61.0" lengthAdjust="spacingAndGlyphs">focus</text>
+<rect x="1559.4" y="942.8" width="25.0" height="25.0" fill="#11a8cd"/>
+<text x="1559.4" y="961.3" fill="#1e1e1e" textLength="24.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">F6</text>
+<rect x="1583.8" y="942.8" width="110.4" height="25.0" fill="#e0e0e0"/>
+<text x="1596.0" y="961.3" fill="#1e1e1e" textLength="73.2" lengthAdjust="spacingAndGlyphs">region</text>
+<rect x="1693.6" y="942.8" width="25.0" height="25.0" fill="#11a8cd"/>
+<text x="1693.6" y="961.3" fill="#1e1e1e" textLength="24.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">^P</text>
+<rect x="1718.0" y="942.8" width="134.8" height="25.0" fill="#e0e0e0"/>
+<text x="1730.2" y="961.3" fill="#1e1e1e" textLength="97.6" lengthAdjust="spacingAndGlyphs">commands</text>
+<rect x="1852.2" y="942.8" width="25.0" height="25.0" fill="#11a8cd"/>
+<text x="1852.2" y="961.3" fill="#1e1e1e" textLength="24.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">^Q</text>
+<rect x="1876.6" y="942.8" width="86.0" height="25.0" fill="#e0e0e0"/>
+<text x="1888.8" y="961.3" fill="#1e1e1e" textLength="48.8" lengthAdjust="spacingAndGlyphs">quit</text>
+</svg>

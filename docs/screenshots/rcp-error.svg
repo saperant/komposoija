@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1972 977" font-family="Fira Code, DejaVu Sans Mono, monospace" font-size="20">
+<rect width="1972" height="977" rx="8" fill="#292929" stroke="#444"/>
+<circle cx="20" cy="20" r="7" fill="#ff5f57"/><circle cx="42" cy="20" r="7" fill="#febc2e"/><circle cx="64" cy="20" r="7" fill="#28c840"/>
+<text x="986" y="26" fill="#c5c8c6" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">komposoija-ui — a render error after a save</text>
+<rect x="10" y="40" width="1952.0" height="927.2" fill="#1e1e1e"/>
+<rect x="10.0" y="40.0" width="305.6" height="25.0" fill="#11a8cd"/>
+<text x="22.2" y="58.5" fill="#1e1e1e" textLength="280.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">komposoija ▸ komposoija</text>
+<rect x="315.0" y="40.0" width="427.6" height="25.0" fill="#e0e0e0"/>
+<text x="339.4" y="58.5" fill="#1e1e1e" textLength="146.4" lengthAdjust="spacingAndGlyphs">1 komposoija</text>
+<text x="510.2" y="58.5" fill="#1e1e1e" textLength="219.6" lengthAdjust="spacingAndGlyphs">4 ♪ Paper Lanterns</text>
+<text x="754.2" y="58.5" fill="#e0e0e0" textLength="146.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">5 example.py</text>
+<rect x="912.8" y="40.0" width="366.6" height="25.0" fill="#e0e0e0"/>
+<text x="1266.6" y="58.5" fill="#1e1e1e" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="1278.8" y="40.0" width="171.4" height="25.0" fill="#11a8cd"/>
+<text x="1291.0" y="58.5" fill="#1e1e1e" textLength="146.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">2 Properties</text>
+<rect x="1449.6" y="40.0" width="513.0" height="25.0" fill="#e0e0e0"/>
+<rect x="10.0" y="64.4" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="1266.6" y="82.9" fill="#666666" textLength="61.0" lengthAdjust="spacingAndGlyphs">│From</text>
+<text x="1339.8" y="82.9" fill="#11a8cd" textLength="122.0" lengthAdjust="spacingAndGlyphs">example.py</text>
+<rect x="10.0" y="88.8" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="107.3" fill="#e0e0e0" textLength="256.2" lengthAdjust="spacingAndGlyphs">outro = song.section(</text>
+<text x="290.6" y="107.3" fill="#cd3131" textLength="85.4" lengthAdjust="spacingAndGlyphs">&quot;outro&quot;</text>
+<text x="376.0" y="107.3" fill="#e0e0e0" textLength="85.4" lengthAdjust="spacingAndGlyphs">, bars=</text>
+<text x="461.4" y="107.3" fill="#cd3131" textLength="12.2" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="473.6" y="107.3" fill="#e0e0e0" textLength="109.8" lengthAdjust="spacingAndGlyphs">, energy=</text>
+<text x="583.4" y="107.3" fill="#cd3131" textLength="36.6" lengthAdjust="spacingAndGlyphs">0.3</text>
+<text x="620.0" y="107.3" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">)</text>
+<text x="1266.6" y="107.3" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="107.3" fill="#e0e0e0" textLength="158.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">example.py:52</text>
+<text x="1461.8" y="107.3" fill="#666666" textLength="48.8" lengthAdjust="spacingAndGlyphs">file</text>
+<rect x="10.0" y="113.2" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="1266.6" y="131.7" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="131.7" fill="#e0e0e0" textLength="97.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">Property</text>
+<text x="1461.8" y="131.7" fill="#e0e0e0" textLength="61.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">Value</text>
+<rect x="10.0" y="137.6" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="156.1" fill="#e0e0e0" textLength="158.6" lengthAdjust="spacingAndGlyphs">song.arrange(</text>
+<text x="193.0" y="156.1" fill="#cd3131" textLength="829.6" lengthAdjust="spacingAndGlyphs">&quot;intro verse pre chorus verse pre chorus bridge chorus chorus outro&quot;</text>
+<text x="1022.6" y="156.1" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">)</text>
+<text x="1266.6" y="156.1" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="1278.8" y="137.6" width="683.8" height="25.0" fill="#e0e0e0"/>
+<text x="1278.8" y="156.1" fill="#1e1e1e" textLength="61.0" lengthAdjust="spacingAndGlyphs">Where</text>
+<text x="1461.8" y="156.1" fill="#1e1e1e" textLength="158.6" lengthAdjust="spacingAndGlyphs">example.py:52</text>
+<rect x="10.0" y="162.0" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="1266.6" y="180.5" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="180.5" fill="#e0e0e0" textLength="48.8" lengthAdjust="spacingAndGlyphs">Line</text>
+<text x="1461.8" y="180.5" fill="#e0e0e0" textLength="24.4" lengthAdjust="spacingAndGlyphs">52</text>
+<rect x="10.0" y="186.4" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="204.9" fill="#2472c8" textLength="939.4" lengthAdjust="spacingAndGlyphs"># ---------------------------------------------------------------------------</text>
+<text x="1266.6" y="204.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="204.9" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs">Column</text>
+<text x="1461.8" y="204.9" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">1</text>
+<rect x="10.0" y="210.8" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="229.3" fill="#2472c8" textLength="634.4" lengthAdjust="spacingAndGlyphs"># 2. MOOD — key, tempo, progressions, groove presets</text>
+<text x="1266.6" y="229.3" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="229.3" fill="#e0e0e0" textLength="48.8" lengthAdjust="spacingAndGlyphs">Type</text>
+<text x="1461.8" y="229.3" fill="#e0e0e0" textLength="73.2" lengthAdjust="spacingAndGlyphs">python</text>
+<rect x="10.0" y="235.2" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="253.7" fill="#2472c8" textLength="939.4" lengthAdjust="spacingAndGlyphs"># ---------------------------------------------------------------------------</text>
+<text x="1266.6" y="253.7" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="253.7" fill="#e0e0e0" textLength="97.6" lengthAdjust="spacingAndGlyphs">Modified</text>
+<text x="1461.8" y="253.7" fill="#e0e0e0" textLength="183.0" lengthAdjust="spacingAndGlyphs">yes (not saved)</text>
+<rect x="10.0" y="259.6" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="1266.6" y="278.1" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="1278.8" y="278.1" fill="#e0e0e0" textLength="48.8" lengthAdjust="spacingAndGlyphs">Text</text>
+<text x="1461.8" y="278.1" fill="#e0e0e0" textLength="451.4" lengthAdjust="spacingAndGlyphs">chorus.chords = chords(&quot;&lt;IV I V xi&gt;&quot;)</text>
+<rect x="10.0" y="284.0" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="302.5" fill="#e0e0e0" textLength="268.4" lengthAdjust="spacingAndGlyphs">intro.chords = chords(</text>
+<text x="302.8" y="302.5" fill="#cd3131" textLength="170.8" lengthAdjust="spacingAndGlyphs">&quot;&lt;I IV vi IV&gt;&quot;</text>
+<text x="473.6" y="302.5" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">)</text>
+<text x="1266.6" y="302.5" fill="#666666" textLength="36.6" lengthAdjust="spacingAndGlyphs">│┌─</text>
+<text x="1315.4" y="302.5" fill="#e0e0e0" textLength="122.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">example.py</text>
+<text x="1449.6" y="302.5" fill="#666666" textLength="512.4" lengthAdjust="spacingAndGlyphs">─────────────────────────────────────────┐</text>
+<rect x="10.0" y="308.4" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="326.9" fill="#e0e0e0" textLength="268.4" lengthAdjust="spacingAndGlyphs">verse.chords = chords(</text>
+<text x="302.8" y="326.9" fill="#cd3131" textLength="158.6" lengthAdjust="spacingAndGlyphs">&quot;&lt;I V vi IV&gt;&quot;</text>
+<text x="461.4" y="326.9" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">)</text>
+<text x="1266.6" y="326.9" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="326.9" fill="#e0e0e0" textLength="85.4" lengthAdjust="spacingAndGlyphs">39 &quot;&quot;&quot;)</text>
+<text x="1937.6" y="326.9" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">▐│</text>
+<rect x="10.0" y="332.8" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="351.3" fill="#e0e0e0" textLength="244.0" lengthAdjust="spacingAndGlyphs">pre.chords = chords(</text>
+<text x="278.4" y="351.3" fill="#cd3131" textLength="219.6" lengthAdjust="spacingAndGlyphs">&quot;&lt;IV V vi [IV V]&gt;&quot;</text>
+<text x="498.0" y="351.3" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">)</text>
+<text x="583.4" y="351.3" fill="#2472c8" textLength="488.0" lengthAdjust="spacingAndGlyphs"># faster harmonic rhythm in the last bar</text>
+<text x="1266.6" y="351.3" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="351.3" fill="#e0e0e0" textLength="24.4" lengthAdjust="spacingAndGlyphs">40</text>
+<text x="1949.8" y="351.3" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="10.0" y="357.2" width="25.0" height="25.0" fill="#cd3131"/>
+<text x="10.0" y="375.7" fill="#ffffff" textLength="24.4" lengthAdjust="spacingAndGlyphs">E&gt;</text>
+<rect x="34.4" y="357.2" width="12.8" height="25.0" fill="#e0e0e0"/>
+<text x="34.4" y="375.7" fill="#1e1e1e" textLength="12.2" lengthAdjust="spacingAndGlyphs">c</text>
+<text x="46.6" y="375.7" fill="#e0e0e0" textLength="268.4" lengthAdjust="spacingAndGlyphs">horus.chords = chords(</text>
+<text x="315.0" y="375.7" fill="#cd3131" textLength="158.6" lengthAdjust="spacingAndGlyphs">&quot;&lt;IV I V xi&gt;&quot;</text>
+<text x="473.6" y="375.7" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">)</text>
+<text x="583.4" y="375.7" fill="#2472c8" textLength="463.6" lengthAdjust="spacingAndGlyphs"># same four chords, new starting point</text>
+<rect x="1047.0" y="357.2" width="220.2" height="25.0" fill="#cd3131"/>
+<text x="1071.4" y="375.7" fill="#ffffff" textLength="195.2" lengthAdjust="spacingAndGlyphs">komposoija: Min…</text>
+<text x="1266.6" y="375.7" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="375.7" fill="#e0e0e0" textLength="634.4" lengthAdjust="spacingAndGlyphs">41 outro = song.section(&quot;outro&quot;, bars=4, energy=0.3)</text>
+<text x="1949.8" y="375.7" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="10.0" y="381.6" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="400.1" fill="#e0e0e0" textLength="280.6" lengthAdjust="spacingAndGlyphs">bridge.chords = chords(</text>
+<text x="315.0" y="400.1" fill="#cd3131" textLength="317.2" lengthAdjust="spacingAndGlyphs">&quot;&lt;vi IV I V vi IV bVII V&gt;&quot;</text>
+<text x="632.2" y="400.1" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">)</text>
+<text x="668.8" y="400.1" fill="#2472c8" textLength="317.2" lengthAdjust="spacingAndGlyphs"># borrowed bVII for colour</text>
+<text x="1266.6" y="400.1" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="400.1" fill="#e0e0e0" textLength="24.4" lengthAdjust="spacingAndGlyphs">42</text>
+<text x="1949.8" y="400.1" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="10.0" y="406.0" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="424.5" fill="#e0e0e0" textLength="268.4" lengthAdjust="spacingAndGlyphs">outro.chords = chords(</text>
+<text x="302.8" y="424.5" fill="#cd3131" textLength="146.4" lengthAdjust="spacingAndGlyphs">&quot;&lt;I IV I@2&gt;&quot;</text>
+<text x="449.2" y="424.5" fill="#e0e0e0" textLength="12.2" lengthAdjust="spacingAndGlyphs">)</text>
+<text x="1266.6" y="424.5" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="424.5" fill="#e0e0e0" textLength="646.6" lengthAdjust="spacingAndGlyphs">43 song.arrange(&quot;intro verse pre chorus verse pre cho</text>
+<text x="1949.8" y="424.5" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="10.0" y="430.4" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="1266.6" y="448.9" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="448.9" fill="#e0e0e0" textLength="24.4" lengthAdjust="spacingAndGlyphs">44</text>
+<text x="1949.8" y="448.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="10.0" y="454.8" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="473.3" fill="#e0e0e0" textLength="585.6" lengthAdjust="spacingAndGlyphs">intro.play(keys=comp.arp_broken, pad=comp.whole)</text>
+<text x="1266.6" y="473.3" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="473.3" fill="#e0e0e0" textLength="646.6" lengthAdjust="spacingAndGlyphs">45 # ------------------------------------------------</text>
+<text x="1949.8" y="473.3" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="10.0" y="479.2" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="497.7" fill="#e0e0e0" textLength="829.6" lengthAdjust="spacingAndGlyphs">verse.play(drums=drums.sidestick, bass=bass.roots, keys=comp.halves)</text>
+<text x="1266.6" y="497.7" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="497.7" fill="#e0e0e0" textLength="646.6" lengthAdjust="spacingAndGlyphs">46 # 2. MOOD — key, tempo, progressions, groove prese</text>
+<text x="1949.8" y="497.7" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="10.0" y="503.6" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="522.1" fill="#e0e0e0" textLength="988.2" lengthAdjust="spacingAndGlyphs">pre.play(drums=drums.rock, bass=bass.eighths, keys=comp.quarters, pad=comp.whole)</text>
+<text x="1266.6" y="522.1" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="522.1" fill="#e0e0e0" textLength="646.6" lengthAdjust="spacingAndGlyphs">47 # ------------------------------------------------</text>
+<text x="1949.8" y="522.1" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="10.0" y="528.0" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="546.5" fill="#e0e0e0" textLength="890.6" lengthAdjust="spacingAndGlyphs">chorus.play(drums=drums.rock_ride, bass=bass.driving, guitar=comp.power8,</text>
+<text x="1266.6" y="546.5" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="546.5" fill="#e0e0e0" textLength="24.4" lengthAdjust="spacingAndGlyphs">48</text>
+<text x="1949.8" y="546.5" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="10.0" y="552.4" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="180.8" y="570.9" fill="#e0e0e0" textLength="439.2" lengthAdjust="spacingAndGlyphs">keys=comp.pop_strum, pad=comp.whole)</text>
+<text x="1266.6" y="570.9" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="570.9" fill="#e0e0e0" textLength="488.0" lengthAdjust="spacingAndGlyphs">49 intro.chords = chords(&quot;&lt;I IV vi IV&gt;&quot;)</text>
+<text x="1949.8" y="570.9" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="10.0" y="576.8" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="595.3" fill="#e0e0e0" textLength="1049.2" lengthAdjust="spacingAndGlyphs">bridge.play(drums=drums.half_time, bass=bass.halves, keys=comp.arp_up, pad=comp.whole)</text>
+<text x="1266.6" y="595.3" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="595.3" fill="#e0e0e0" textLength="475.8" lengthAdjust="spacingAndGlyphs">50 verse.chords = chords(&quot;&lt;I V vi IV&gt;&quot;)</text>
+<text x="1949.8" y="595.3" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="10.0" y="601.2" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="619.7" fill="#e0e0e0" textLength="732.0" lengthAdjust="spacingAndGlyphs">outro.play(keys=comp.whole, pad=comp.whole, bass=bass.roots)</text>
+<text x="1266.6" y="619.7" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<text x="1303.2" y="619.7" fill="#e0e0e0" textLength="512.4" lengthAdjust="spacingAndGlyphs">51 pre.chords = chords(&quot;&lt;IV V vi [IV V]&gt;&quot;)</text>
+<text x="1888.8" y="619.7" fill="#e0e0e0" textLength="61.0" lengthAdjust="spacingAndGlyphs"># fas</text>
+<text x="1949.8" y="619.7" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="10.0" y="625.6" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="1266.6" y="644.1" fill="#666666" textLength="24.4" lengthAdjust="spacingAndGlyphs">││</text>
+<rect x="1291.0" y="625.6" width="659.4" height="25.0" fill="#e0e0e0"/>
+<text x="1303.2" y="644.1" fill="#1e1e1e" textLength="488.0" lengthAdjust="spacingAndGlyphs">52 chorus.chords = chords(&quot;&lt;IV I V vi&gt;&quot;)</text>
+<text x="1888.8" y="644.1" fill="#1e1e1e" textLength="61.0" lengthAdjust="spacingAndGlyphs"># sam</text>
+<text x="1949.8" y="644.1" fill="#666666" textLength="12.2" lengthAdjust="spacingAndGlyphs">│</text>
+<rect x="10.0" y="650.0" width="25.0" height="25.0" fill="#a8a8a8"/>
+<text x="34.4" y="668.5" fill="#2472c8" textLength="939.4" lengthAdjust="spacingAndGlyphs"># ---------------------------------------------------------------------------</text>
+<text x="1266.6" y="668.5" fill="#666666" textLength="695.4" lengthAdjust="spacingAndGlyphs">│└──────────────────────────────────────────────────────┘</text>
+<text x="10.0" y="692.9" fill="#e0e0e0" textLength="378.2" lengthAdjust="spacingAndGlyphs">&quot;example.py&quot; 81L, 3479B written</text>
+<text x="1047.0" y="692.9" fill="#e0e0e0" textLength="48.8" lengthAdjust="spacingAndGlyphs">52,1</text>
+<text x="1217.8" y="692.9" fill="#e0e0e0" textLength="36.6" lengthAdjust="spacingAndGlyphs">69%</text>
+<text x="1266.6" y="692.9" fill="#666666" textLength="427.0" lengthAdjust="spacingAndGlyphs">│Enter opens the line in the editor</text>
+<rect x="10.0" y="698.8" width="12.8" height="25.0" fill="#e0e0e0"/>
+<rect x="22.2" y="698.8" width="147.0" height="25.0" fill="#11a8cd"/>
+<text x="34.4" y="717.3" fill="#1e1e1e" textLength="122.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">3 Problems</text>
+<rect x="168.6" y="698.8" width="1794.0" height="25.0" fill="#e0e0e0"/>
+<text x="10.0" y="741.7" fill="#666666" textLength="353.8" lengthAdjust="spacingAndGlyphs">1 errors, 0 warnings, 0 other</text>
+<text x="107.6" y="766.1" fill="#e0e0e0" textLength="61.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">Where</text>
+<text x="803.0" y="766.1" fill="#e0e0e0" textLength="85.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">Problem</text>
+<text x="1840.0" y="766.1" fill="#e0e0e0" textLength="48.8" lengthAdjust="spacingAndGlyphs" font-weight="bold">From</text>
+<rect x="10.0" y="772.0" width="1952.6" height="25.0" fill="#e0e0e0"/>
+<text x="10.0" y="790.5" fill="#1e1e1e" textLength="61.0" lengthAdjust="spacingAndGlyphs">error</text>
+<text x="107.6" y="790.5" fill="#1e1e1e" textLength="158.6" lengthAdjust="spacingAndGlyphs">example.py:52</text>
+<text x="803.0" y="790.5" fill="#1e1e1e" textLength="1159.0" lengthAdjust="spacingAndGlyphs">MiniNotationError: not a chord: &#x27;xi&#x27; (use Roman numerals like I, vi, bVII, V7 or sym komposoija</text>
+<text x="10.0" y="936.9" fill="#666666" textLength="744.2" lengthAdjust="spacingAndGlyphs">Enter opens the place (the editor, or the view that shows it)</text>
+<rect x="10.0" y="942.8" width="1525.6" height="25.0" fill="#cd3131"/>
+<text x="22.2" y="961.3" fill="#ffffff" textLength="1354.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">example.py: MiniNotationError: not a chord: &#x27;xi&#x27; (use Roman numerals like I, vi, bVII, V7 or symbols like Am7)?</text>
+<text x="1400.8" y="961.3" fill="#ffffff" textLength="134.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">&lt;IV I V xi&gt;</text>
+<rect x="1535.0" y="942.8" width="25.0" height="25.0" fill="#e0e0e0"/>
+<rect x="1559.4" y="942.8" width="25.0" height="25.0" fill="#11a8cd"/>
+<text x="1559.4" y="961.3" fill="#1e1e1e" textLength="24.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">^\</text>
+<rect x="1583.8" y="942.8" width="208.0" height="25.0" fill="#e0e0e0"/>
+<text x="1596.0" y="961.3" fill="#1e1e1e" textLength="170.8" lengthAdjust="spacingAndGlyphs">workbench keys</text>
+<rect x="1791.2" y="942.8" width="86.0" height="25.0" fill="#11a8cd"/>
+<text x="1791.2" y="961.3" fill="#1e1e1e" textLength="85.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">Alt+1…9</text>
+<rect x="1876.6" y="942.8" width="86.0" height="25.0" fill="#e0e0e0"/>
+<text x="1888.8" y="961.3" fill="#1e1e1e" textLength="48.8" lengthAdjust="spacingAndGlyphs">tabs</text>
+</svg>
