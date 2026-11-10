@@ -15,24 +15,18 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
-        with:
-          path: komposoija
-      # The myrcp SDK, for the myrcp plugin's tests (tests/myrcp_peer.py finds ../myrcp).
-      - uses: actions/checkout@v7
-        with:
-          repository: saperant/myrcp
-          path: myrcp
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
+      # The dev extra brings the myrcp wheel from PyPI, for the myrcp plugin's tests.
       - name: Install
-        working-directory: komposoija
         run: |
           python -m venv .venv
           .venv/bin/pip install --quiet -e '.[dev]'
       - name: Test
-        working-directory: komposoija
-        run: .venv/bin/pytest -q
+        run: .venv/bin/pytest -q -rs
+      - name: komposoija-ui starts (headless)
+        run: cd songs && XDG_STATE_HOME=$RUNNER_TEMP ../.venv/bin/komposoija-ui --list
 
   docs:
     runs-on: ubuntu-24.04

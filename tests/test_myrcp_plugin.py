@@ -1,4 +1,4 @@
-"""komposoija's myrcp plugin (myrcp/plugins/komposoija) over myrcp's plugin protocol:
+"""komposoija's myrcp plugin (src/komposoija/ui/plugins/komposoija) over myrcp's plugin protocol:
 songs found, the form, the start mark following the editor, playing from it (with a
 stand-in fluidsynth), render errors at their line. Skipped without the myrcp SDK."""
 
@@ -17,7 +17,7 @@ from myrcp_komposoija.songs import find_songs  # noqa: E402
 
 # This venv has komposoija; the plugin host runs in it, with the SDK on its path.
 KOMPOSOIJA_PYTHON = sys.executable
-need_myrcp = pytest.mark.skipif(SDK is None, reason="no myrcp SDK (MYRCP_SDK, an installed myrcp, or ../myrcp)")
+need_myrcp = pytest.mark.skipif(SDK is None, reason="no myrcp SDK (pip install -e '.[dev]', MYRCP_SDK, or ../myrcp)")
 
 SONG = '''from komposoija import *
 

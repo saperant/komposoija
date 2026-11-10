@@ -10,9 +10,9 @@ mini-notation in Python) and rendered to MIDI for band scores and SoundFont play
   one per genre palette.
 - `docs/` — music theory study material (chapters 01–15) and `docs/song-dsl.md` (DSL reference).
   Keep `docs/song-dsl.md`, `README.md` and docs/15 section 15.8 in sync with code changes.
-- `myrcp/` — the user interface on the myrcp workbench: `product.toml` and the plugin
-  `plugins/komposoija` (`myrcp.toml` declares its views and commands); started by
-  `scripts/komposoija-ui` (or `myrcp --product myrcp`). It reads songs through
+- `src/komposoija/ui/` — the user interface on the myrcp workbench (the `ui` extra:
+  the myrcp wheel from PyPI): `product.toml` and the plugin `plugins/komposoija`
+  (`myrcp.toml` declares its views and commands); started by `komposoija-ui`. It reads songs through
   `komposoija inspect`, so keep that JSON stable or update the plugin with it.
 - `tests/` — pytest suite (`test_myrcp_plugin.py` drives the plugin over myrcp's protocol).
 

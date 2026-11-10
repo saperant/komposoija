@@ -62,8 +62,8 @@ and 7). `-o PATH` also writes the MIDI file. A song that fails gives
 ### In the myrcp workbench
 
 komposoija's user interface on [myrcp](https://github.com/saperant/myrcp)
-(`scripts/komposoija-ui`, or `myrcp --product myrcp`; the plugin is
-`myrcp/plugins/komposoija`, run in this repository's `.venv`) lists the songs under
+(`pip install 'komposoija[ui]'`, then `komposoija-ui`; the plugin is
+`src/komposoija/ui/plugins/komposoija`, run in komposoija's Python) lists the songs under
 `$KOMPOSOIJA_SONGS` (else the working directory) and opens a song as a tab: the form as a
 table with each section's bars, start and chords, a playhead while it plays, and render
 errors in Problems at their line. Edit the file in a linked Vim or Neovim beside it:

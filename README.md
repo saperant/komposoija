@@ -56,17 +56,19 @@ section, and on a lyric line its bar); `F9` plays from there, `space` in the son
 at their line. See "In the myrcp workbench" in the [DSL reference](docs/song-dsl.md).
 
 ```bash
-# myrcp installed (its README: ./build.sh install puts `myrcp` in ~/.local/bin)
-cd songs && ../scripts/komposoija-ui          # the songs below the current directory
-MYRCP_GTK=1 scripts/komposoija-ui             # the GTK workbench (myrcp built with GTK)
-myrcp --product myrcp                         # the same, without the script
+.venv/bin/pip install -e '.[ui]'              # the myrcp wheel from PyPI comes along
+cd songs && ../.venv/bin/komposoija-ui        # the songs below the current directory
+MYRCP_GTK=1 .venv/bin/komposoija-ui           # the GTK workbench (a myrcp-gtk built from source)
 ```
 
-The UI is a myrcp product directory, [`myrcp/`](myrcp): `product.toml` and the plugin
-`myrcp/plugins/komposoija` (its views, commands and keys in `myrcp.toml`), which runs
-under this checkout's `.venv` (or `$KOMPOSOIJA_PYTHON`). Its tests,
-`tests/test_myrcp_plugin.py`, find the myrcp SDK next to an installed `myrcp`, in
-`$MYRCP_SDK`, or in a `../myrcp` checkout, and are skipped without it.
+The `ui` extra installs [myrcp](https://pypi.org/project/myrcp/) (Linux; Python 3.11 or
+later), which has the workbench built in, so there is nothing to build. The UI is a myrcp
+product directory in the package, [`src/komposoija/ui`](src/komposoija/ui):
+`product.toml` and the plugin `plugins/komposoija` (its views, commands and keys in
+`myrcp.toml`). `komposoija-ui` starts it with the Python it was installed in, so the
+plugin imports komposoija from there (`$KOMPOSOIJA_PYTHON` names another). Its tests,
+`tests/test_myrcp_plugin.py`, use the installed myrcp SDK (the `dev` extra has it), else
+`$MYRCP_SDK` or a `../myrcp` checkout, and are skipped without one.
 
 ## Documentation
 
@@ -90,8 +92,7 @@ under this checkout's `.venv` (or `$KOMPOSOIJA_PYTHON`). Its tests,
 | `src/komposoija/timeline.py`, `sourcemap.py` | bars in time and places (`chorus.2:5`); which section a line of a song file is about |
 | `songs/` | song files |
 | `docs/` | study material, DSL reference, PDF stylesheet |
-| `myrcp/` | the myrcp user interface: `product.toml`, `plugins/komposoija` |
-| `scripts/komposoija-ui` | starts it |
+| `src/komposoija/ui/` | the myrcp user interface (`komposoija-ui`): `product.toml`, `plugins/komposoija` |
 | `tests/` | pytest suite |
 
 ## Licence

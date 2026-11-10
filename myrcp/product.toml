@@ -1,7 +1,0 @@
-# komposoija in the myrcp workbench: myrcp --product myrcp (from this checkout), or
-# scripts/komposoija-ui. https://github.com/saperant/myrcp
-[product]
-id = "komposoija"
-name = "komposoija"
-version = "0.9.0"
-plugins = ["plugins"]

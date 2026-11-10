@@ -1,30 +1,34 @@
 """Talks to myrcp's plugin host (`python -m myrcp.host`) as the workbench would, for
-testing komposoija's myrcp plugin (myrcp/plugins/komposoija) without a terminal.
+testing komposoija's myrcp plugin (src/komposoija/ui/plugins/komposoija) without a
+terminal.
 
-The myrcp SDK comes from $MYRCP_SDK, else next to an installed `myrcp`
-(<prefix>/share/myrcp/python), else a myrcp checkout beside this one (../myrcp/python).
+The myrcp SDK comes from $MYRCP_SDK, else the installed myrcp package (the `ui` and `dev`
+extras), else a myrcp checkout beside this one (../myrcp/python).
 """
 
 from __future__ import annotations
 
 import os
 import select
-import shutil
 import subprocess
 import sys
 import time
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
-PLUGINS_DIR = REPO / "myrcp" / "plugins"
+PLUGINS_DIR = REPO / "src" / "komposoija" / "ui" / "plugins"
 
 
 def find_sdk() -> Path | None:
     candidates = []
     if os.environ.get("MYRCP_SDK"):
         candidates.append(Path(os.environ["MYRCP_SDK"]))
-    if exe := shutil.which("myrcp"):
-        candidates.append(Path(exe).resolve().parents[1] / "share" / "myrcp" / "python")
+    try:
+        import myrcp
+
+        candidates.append(Path(myrcp.__file__).resolve().parents[1])
+    except ImportError:
+        pass
     candidates.append(REPO.parent / "myrcp" / "python")
     return next((c for c in candidates if (c / "myrcp" / "host.py").exists()), None)
 

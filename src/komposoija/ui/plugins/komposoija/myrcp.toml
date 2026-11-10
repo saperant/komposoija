@@ -2,10 +2,10 @@
 id = "komposoija"
 name = "komposoija"
 module = "myrcp_komposoija.plugin"
-# An interpreter with komposoija installed: $KOMPOSOIJA_PYTHON, else this checkout's
-# .venv. Songs are found under $KOMPOSOIJA_SONGS (paths), else the cwd. Playback is
-# komposoija's (FluidSynth and a General MIDI SoundFont).
-python = ["$KOMPOSOIJA_PYTHON", "../../../.venv/bin/python"]
+# It runs in the Python komposoija-ui was started with (komposoija's), or in
+# $KOMPOSOIJA_PYTHON when that is set. Songs are found under $KOMPOSOIJA_SONGS (paths),
+# else the cwd. Playback is komposoija's (FluidSynth and a General MIDI SoundFont).
+python = ["$KOMPOSOIJA_PYTHON"]
 
 [[views]]
 id = "komposoija.songs"
