@@ -204,7 +204,12 @@ How the stages of 15.2 are covered:
 | 6. Arrange | comping presets, voice-led close/open/power/shell/rootless voicings, style profiles (instruments, registers, feel), per-section parts, automatic crashes | `presets.py`, `genres.py`, `styles.py`, `theory.py` |
 | 7. Humanize | swing (8th or 16th, off in 8th-based meters such as 6/8 and 7/8), per-track timing/velocity jitter set by style | `render.py`, `styles.py` |
 | 8. Evaluate | rule checks not implemented; the render summary supports review by eye | — |
-| 9. Render | MIDI writer; FluidSynth playback, WAV and MP3 | `render.py`, `playback.py` |
+| 9. Render | MIDI writer; FluidSynth playback (from any place: `--from chorus.2:5`), WAV and MP3 | `render.py`, `playback.py`, `timeline.py` |
+
+The write ↔ listen loop runs in a terminal (`render --watch --play --from PLACE`) or in the
+myrcp workbench, whose komposoija companion follows the editor's cursor: the line names a
+section (and a lyric line its bar) through `sourcemap.py`, and playback starts there
+(`komposoija inspect` gives the timeline it uses).
 
 Against the milestones in 15.6: (1) the theory core and (2) MIDI export are done; parts of
 (3), (6) and (8) exist as presets, humanisation and audio rendering. The natural next
