@@ -40,10 +40,33 @@ python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
 ```bash
 .venv/bin/komposoija render songs/example.py                  # -> build/example.mid + summary
 .venv/bin/komposoija render songs/example.py --watch --play   # live coding with playback
+.venv/bin/komposoija render songs/example.py -w --play --from chorus.2   # ... from a place
 .venv/bin/komposoija render songs/example.py --mp3            # -> build/example.mp3
 .venv/bin/komposoija show songs/example.py                    # arrangement overview
 .venv/bin/pytest -q                                           # tests
 ```
+
+## In the myrcp workbench
+
+komposoija has a user interface on [myrcp](https://github.com/saperant/myrcp), a
+terminal-first workbench (or a GTK 4 one): edit the song in Vim/Neovim on one side, see
+its form and a playhead on the other. The editor's cursor sets where playing starts (the
+section, and on a lyric line its bar); `F9` plays from there, `space` in the song's tab,
+`l` loops the section, and a save replays the new version. Render errors are in Problems
+at their line. See "In the myrcp workbench" in the [DSL reference](docs/song-dsl.md).
+
+```bash
+# myrcp installed (its README: ./build.sh install puts `myrcp` in ~/.local/bin)
+cd songs && ../scripts/komposoija-ui          # the songs below the current directory
+MYRCP_GTK=1 scripts/komposoija-ui             # the GTK workbench (myrcp built with GTK)
+myrcp --product myrcp                         # the same, without the script
+```
+
+The UI is a myrcp product directory, [`myrcp/`](myrcp): `product.toml` and the plugin
+`myrcp/plugins/komposoija` (its views, commands and keys in `myrcp.toml`), which runs
+under this checkout's `.venv` (or `$KOMPOSOIJA_PYTHON`). Its tests,
+`tests/test_myrcp_plugin.py`, find the myrcp SDK next to an installed `myrcp`, in
+`$MYRCP_SDK`, or in a `../myrcp` checkout, and are skipped without it.
 
 ## Documentation
 
@@ -63,7 +86,14 @@ python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
 | `src/komposoija/notation.py`, `presets.py` | pattern constructors, pop-rock grooves/bass/comp presets |
 | `src/komposoija/genres.py`, `styles.py` | genre palettes and style profiles (jazz, blues, funk, reggae, metal) |
 | `src/komposoija/song.py`, `render.py` | song model, rendering, MIDI writer |
-| `src/komposoija/playback.py`, `cli.py` | FluidSynth/MP3 audio, command line |
+| `src/komposoija/playback.py`, `cli.py` | FluidSynth/MP3 audio, MIDI excerpts, command line |
+| `src/komposoija/timeline.py`, `sourcemap.py` | bars in time and places (`chorus.2:5`); which section a line of a song file is about |
 | `songs/` | song files |
 | `docs/` | study material, DSL reference, PDF stylesheet |
+| `myrcp/` | the myrcp user interface: `product.toml`, `plugins/komposoija` |
+| `scripts/komposoija-ui` | starts it |
 | `tests/` | pytest suite |
+
+## Licence
+
+MIT; see [LICENSE](LICENSE).

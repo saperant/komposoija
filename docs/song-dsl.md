@@ -26,7 +26,9 @@ komposoija render songs/example.py --play     # ... and play it (Ctrl-C stops)
 komposoija render songs/example.py -w --play  # live coding: replay on every save
 komposoija render songs/example.py --mp3      # ... and build/example.mp3
 komposoija render songs/example.py --sections chorus --play   # audition a part
+komposoija render songs/example.py -w --play --from chorus.2:5  # replay from a place
 komposoija show songs/example.py              # arrangement summary only
+komposoija inspect songs/example.py           # the timeline and source map as JSON
 ```
 
 | Option | Effect |
@@ -35,6 +37,7 @@ komposoija show songs/example.py              # arrangement summary only
 | `--sections a,b` | render these sections in this order instead of the form |
 | `-w`, `--watch` | re-render whenever the file is saved; errors are printed and watching continues |
 | `-p`, `--play` | play through FluidSynth; with `--watch`, playback restarts on each save |
+| `--from PLACE` | with `--play`: start playing at a place (see below); the files written stay whole |
 | `--wav [PATH]` | also write a WAV file |
 | `--mp3 [PATH]` | also write an MP3 file (the intermediate WAV is removed unless `--wav` is given) |
 | `--bitrate N` | MP3 bitrate in kbit/s (default 192) |
@@ -42,6 +45,36 @@ komposoija show songs/example.py              # arrangement summary only
 
 `--sections` writes to the same default path as a full render, so give `-o` if you want to
 keep both.
+
+**Places** name a bar of the form: `chorus` (the first chorus), `chorus.2` (the second time
+it is played), `chorus:5` (its bar 5), `chorus.2:5`, or a plain bar number of the song
+(`33`). The summary's `@0:33` times and the bar numbers below are where they start.
+`--play --from` writes the excerpt next to the MIDI file (`build/<song>.from.mid`): the
+tempo, key, programs and notes held across the start are carried to its beginning.
+
+`inspect` prints what editors and the myrcp companion read: the form with each bar's beat
+and time, and which section each line of the file is about (a section's `song.section(...)`
+call, the statements on its variable such as `verse.play(...)` and `verse.chords = ...`, and
+on a lyric line the bar where that line starts: 4 lines in 8 bars start at bars 1, 3, 5
+and 7). `-o PATH` also writes the MIDI file. A song that fails gives
+`{"error", "traceback", "places"}` with the line in the song file, and exit status 1.
+
+### In the myrcp workbench
+
+komposoija's user interface on [myrcp](https://github.com/saperant/myrcp)
+(`scripts/komposoija-ui`, or `myrcp --product myrcp`; the plugin is
+`myrcp/plugins/komposoija`, run in this repository's `.venv`) lists the songs under
+`$KOMPOSOIJA_SONGS` (else the working directory) and opens a song as a tab: the form as a
+table with each section's bars, start and chords, a playhead while it plays, and render
+errors in Problems at their line. Edit the file in a linked Vim or Neovim beside it:
+
+- the editor's cursor sets the **start mark**: the section the line is about, on a lyric
+  line the bar it starts;
+- `space` (in the tab) or `F9` (anywhere, `Ctrl+\ F9` from a terminal tab) plays from the
+  mark and stops; `Enter` on a row plays that section; `[` `]` move the mark a bar;
+- every save renders again, and while playing the new version starts from the mark;
+- while playing, the mark moving with the cursor restarts playback there (`f` toggles);
+  `l` loops the section being played.
 
 The printed summary shows key, tempo, length, and for every section its start time,
 chords bar by bar (`%` = chord continues), tracks, fills and the first lyric line:
@@ -292,4 +325,5 @@ other notation programs can import it for scores; any SoundFont player can play 
 | `plays unknown track 'x'` | add it with `song.track("x", program=..., register=(lo, hi))` |
 | `fluidsynth not found` / `no General MIDI SoundFont found` | install the packages above or set `KOMPOSOIJA_SOUNDFONT` |
 | no sound with `--play` | try `KOMPOSOIJA_AUDIO_DRIVER=pipewire` or `alsa` |
+| `'x': no such place` | `--from` takes a section of the form, `name.N`, `name:BAR` or a bar number |
 | choruses distort | lower `--gain` |

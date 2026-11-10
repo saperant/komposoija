@@ -1,0 +1,13 @@
+#!/bin/sh
+# komposoija in the myrcp workbench (https://github.com/saperant/myrcp): the songs below
+# the current directory, the form of the one being edited, playing from the editor's
+# cursor (F9). Needs `myrcp` on PATH (or $MYRCP) and this checkout's .venv.
+# MYRCP_GTK=1 starts the GTK workbench instead (myrcp-gtk).
+set -eu
+here=$(cd "$(dirname "$0")/.." && pwd)
+if [ "${MYRCP_GTK:-}" = 1 ]; then myrcp=${MYRCP:-myrcp-gtk}; else myrcp=${MYRCP:-myrcp}; fi
+command -v "$myrcp" >/dev/null 2>&1 || {
+  echo "komposoija-ui: $myrcp not found; install myrcp (https://github.com/saperant/myrcp)" >&2
+  exit 1
+}
+exec "$myrcp" --product "$here/myrcp" "$@"

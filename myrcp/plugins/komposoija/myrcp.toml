@@ -1,0 +1,99 @@
+[plugin]
+id = "komposoija"
+name = "komposoija"
+module = "myrcp_komposoija.plugin"
+# An interpreter with komposoija installed: $KOMPOSOIJA_PYTHON, else this checkout's
+# .venv. Songs are found under $KOMPOSOIJA_SONGS (paths), else the cwd. Playback is
+# komposoija's (FluidSynth and a General MIDI SoundFont).
+python = ["$KOMPOSOIJA_PYTHON", "../../../.venv/bin/python"]
+
+[[views]]
+id = "komposoija.songs"
+title = "komposoija"
+startup = true
+
+[[views]]
+id = "komposoija.song"  # komposoija.song#<song file>
+title = "komposoija song"
+
+[[preferences]]
+id = "songs"
+title = "Song folders"
+type = "paths"
+env = "KOMPOSOIJA_SONGS"
+description = "Where to look for komposoija song files, folders searched below. None: the working directory."
+
+[[preferences]]
+id = "gain"
+title = "Playback gain (percent)"
+type = "int"
+default = 30
+description = "FluidSynth's master gain, in percent (komposoija's default is 30)."
+
+# A perspective: the songs; a song opens beside them, what the cursor is on at the side,
+# the problems below. Perspective: komposoija (Ctrl+P) switches to it.
+[[perspectives]]
+id = "komposoija"
+title = "komposoija"
+main = ["komposoija.songs"]
+side = ["properties"]
+bottom = ["problems"]
+
+# ---- anywhere --------------------------------------------------------------------------
+
+[[commands]]
+id = "komposoija.play_at_cursor"
+title = "komposoija: Play from the editor's cursor / stop"
+key = "f9"
+
+# ---- the list of songs -----------------------------------------------------------------
+
+[[commands]]
+id = "komposoija.songs.reload"
+title = "komposoija: Find songs again"
+key = "r"
+view = "komposoija.songs"
+
+# ---- a song ----------------------------------------------------------------------------
+
+[[commands]]
+id = "komposoija.play"
+title = "komposoija: Play from the start mark / stop"
+key = "space"
+view = "komposoija.song"
+
+[[commands]]
+id = "komposoija.loop"
+title = "komposoija: Loop the section being played (on/off)"
+key = "l"
+view = "komposoija.song"
+
+[[commands]]
+id = "komposoija.follow"
+title = "komposoija: Follow the editor while playing (on/off)"
+key = "f"
+view = "komposoija.song"
+
+[[commands]]
+id = "komposoija.earlier"
+title = "komposoija: Start a bar earlier"
+key = "["
+view = "komposoija.song"
+
+[[commands]]
+id = "komposoija.later"
+title = "komposoija: Start a bar later"
+key = "]"
+view = "komposoija.song"
+
+[[commands]]
+id = "komposoija.render"
+title = "komposoija: Render the song again"
+key = ["c", "f5"]
+view = "komposoija.song"
+
+[[commands]]
+id = "komposoija.edit"
+title = "komposoija: Edit the song file"
+key = "e"
+view = "komposoija.song"
