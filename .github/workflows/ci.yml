@@ -14,15 +14,15 @@ jobs:
   test:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           path: komposoija
       # The myrcp SDK, for the myrcp plugin's tests (tests/myrcp_peer.py finds ../myrcp).
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           repository: saperant/myrcp
           path: myrcp
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Install
@@ -37,19 +37,19 @@ jobs:
   docs:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Fonts and Pango for WeasyPrint
         run: |
           sudo apt-get update -q
           sudo apt-get install -y -q --no-install-recommends \
             libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0 \
             fonts-noto-core fonts-dejavu fonts-symbola fonts-stix
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Build build/music-theory.pdf
         run: scripts/build-docs-pdf.sh
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: music-theory-pdf
           path: build/music-theory.pdf
@@ -63,7 +63,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: music-theory-pdf
       - name: Release
